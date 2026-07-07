@@ -17,7 +17,7 @@ iOSショートカットが認証なしで読めるように公開リポジト�
 ## 運用(Claude向け)
 
 1. IGのGO確認を出すとき、対象画像を `images/` にコピーし、raw URLの一覧を `manifests/YYYY-MM-DD.txt` に書いてコミット・プッシュする
-   - raw URLの形式: `https://raw.githubusercontent.com/rimone0511/ig-mirror/master/images/<ファイル名>`
+   - raw URLの形式: `https://raw.githubusercontent.com/rimone0511/ig-mirror/main/images/<ファイル名>`
 2. GO確認メッセージに「ショートカットに `YYYY-MM-DD` と入力すれば一括保存できます」と添える
 3. 古い画像の掃除: 月1目安で、投稿済みから1ヶ月超のファイルを削除してよい(履歴には残るが運用上は問題ない)
 
